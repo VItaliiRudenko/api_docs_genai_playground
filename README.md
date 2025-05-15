@@ -22,16 +22,19 @@ sports-hub/                  # General project documentation and requirements
 
 ## Getting Started
 1. Clone this repository.
-2. Navigate to the `api_docs_genai_playground` directory.
-3. Install dependencies:
+2. Install Rancher Desktop by following the [Installation Guide](https://docs.rancherdesktop.io/getting-started/installation/#macos)
+   - Ensure to select "docker (moby)" for docker-compose compatibility
+   - In case of compatibility issues, Administrative Access might be required: Rancher Desktop -> Preferences -> Application -> Administrative Access
+3. Navigate to the `api_docs_genai_playground` directory.
+4. Install dependencies:
    ```sh
    npm install
    ```
-4. Start the documentation server:
+5. Start the documentation server:
    ```sh
    npm run dev
    ```
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the docs.
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the docs.
 
 ## Usage
 Browse the documentation site for API references, guides, and examples. Refer to the `docs/` directory for additional language-specific documentation (e.g., PHP).
